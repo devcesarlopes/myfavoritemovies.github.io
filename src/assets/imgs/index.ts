@@ -1,3 +1,4 @@
 import ImageBackground from "./background.jpeg";
+import Logo from "./logo.svg";
 
-export { ImageBackground };
+export { ImageBackground, Logo };
