@@ -1,21 +1,16 @@
 import GlobalStyle from "./styles/global";
-import { useTranslation } from "react-i18next";
 import { Container } from "./components";
+import { Home } from "./pages/Home/Home";
+import { SearchProvider } from "./contexts/SearchProvider";
 
 function App() {
-    const { t, i18n } = useTranslation("common");
-
     return (
-        <Container>
-            <GlobalStyle />
-            <p>{t("App.p")}</p>
-            <button onClick={() => i18n.changeLanguage("en")}>
-                {t("Change To English")}
-            </button>
-            <button onClick={() => i18n.changeLanguage("pt")}>
-                {t("Change to Portuguese")}
-            </button>
-        </Container>
+        <SearchProvider>
+            <Container>
+                <GlobalStyle />
+                <Home />
+            </Container>
+        </SearchProvider>
     );
 }
 

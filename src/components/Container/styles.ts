@@ -25,5 +25,6 @@ export const ContentContainer = styled.div`
         min-height: 70vh;
     }
 
+    position: relative;
     min-height: 65vh;
 `;

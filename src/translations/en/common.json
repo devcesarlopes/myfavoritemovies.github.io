@@ -2,7 +2,16 @@
     "App": {
         "p": "Hello, My name is Julio!"
     },
+    "SweetAlert": {
+        "error": "Error!",
+        "not_found": "Movie not found!"
+    },
     "Navbar": {
         "selectedLang": "EN"
+    },
+    "Home": {
+        "title": "Search Movie",
+        "button": "Search",
+        "input": "Search (Movie Names must be in English)"
     }
 }

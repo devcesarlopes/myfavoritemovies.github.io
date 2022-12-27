@@ -2,7 +2,16 @@
     "App": {
         "p": "Olá, meu nome é Meu Ovo!"
     },
+    "SweetAlert": {
+        "error": "Erro!",
+        "not_found": "Filme Não Encontrado!"
+    },
     "Navbar": {
         "selectedLang": "BR"
+    },
+    "Home": {
+        "title": "Pesquisar Filmes",
+        "button": "Pesquisar",
+        "input": "Pesquisar (Nome dos Filmes devem ser em Inglês)"
     }
 }
