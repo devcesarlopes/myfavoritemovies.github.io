@@ -16,6 +16,14 @@ export const Background = styled.div`
     background-size: auto 100%;
 `;
 
-export const Container = styled.div`
+export const DivMarginTop = styled.div`
     margin-top: 10vh;
+`;
+
+export const ContentContainer = styled.div`
+    @media screen and (max-width: 980px) {
+        min-height: 70vh;
+    }
+
+    min-height: 65vh;
 `;
