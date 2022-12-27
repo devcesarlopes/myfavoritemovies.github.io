@@ -1,5 +1,8 @@
 {
     "App": {
         "p": "Olá, meu nome é Meu Ovo!"
+    },
+    "Navbar": {
+        "selectedLang": "BR"
     }
 }
