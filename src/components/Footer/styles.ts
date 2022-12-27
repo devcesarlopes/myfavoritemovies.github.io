@@ -35,7 +35,7 @@ export const Text = styled.div<{ theme: string }>`
 
     h3 {
         margin-top: 0 !important;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     h3:last-child {
@@ -62,15 +62,15 @@ export const IconImageMargin = styled.img`
         }
     }
 
-    width: 5vh;
-    height: 5vh;
+    width: 37px;
+    height: 37px;
     margin: 0 10px;
     cursor: pointer;
     filter: invert(46%) sepia(63%) saturate(851%) hue-rotate(163deg)
         brightness(86%) contrast(91%);
 
     &:hover {
-        width: 6vh;
-        height: 6vh;
+        width: 43px;
+        height: 43px;
     }
 `;

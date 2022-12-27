@@ -3,8 +3,8 @@
         "p": "Olá, meu nome é Meu Ovo!"
     },
     "SweetAlert": {
-        "error": "Erro!",
-        "not_found": "Filme Não Encontrado!"
+        "notFound": "Filme Não Encontrado!",
+        "emptyInput": "Preencha um valor para buscar!"
     },
     "Navbar": {
         "selectedLang": "BR"

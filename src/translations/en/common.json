@@ -3,8 +3,8 @@
         "p": "Hello, My name is Julio!"
     },
     "SweetAlert": {
-        "error": "Error!",
-        "not_found": "Movie not found!"
+        "notFound": "Movie not found!",
+        "emptyInput": "Insert a value to search!"
     },
     "Navbar": {
         "selectedLang": "EN"
