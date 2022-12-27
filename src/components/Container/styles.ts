@@ -26,5 +26,5 @@ export const ContentContainer = styled.div`
     }
 
     position: relative;
-    min-height: 65vh;
+    min-height: calc(85vh - 120px);
 `;

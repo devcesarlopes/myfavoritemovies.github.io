@@ -21,7 +21,7 @@ export const Home = () => {
             .then((response) => {
                 if (response.Response === "False") throw Error(response.Error);
             })
-            .then(() => navigate("/result/" + value))
+            .then(() => navigate("/search/" + value))
             .catch((err) => {
                 if (err instanceof Error) {
                     const message =

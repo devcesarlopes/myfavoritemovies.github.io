@@ -12,6 +12,7 @@ export const Container = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
     background: rgba(0, 0, 0, 0.6);
+    z-index: 999;
 `;
 
 export const Img = styled.img.attrs({

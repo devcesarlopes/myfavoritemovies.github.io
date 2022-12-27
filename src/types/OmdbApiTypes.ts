@@ -1,4 +1,4 @@
-type OmdbMovie = {
+export type OmdbMovie = {
     Title: string;
     Year: number;
     imdbID: string;

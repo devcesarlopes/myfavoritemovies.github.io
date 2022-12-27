@@ -12,6 +12,9 @@
     "Home": {
         "title": "Search Movie",
         "button": "Search",
-        "input": "Search (Movie Names must be in English)"
+        "input": "Search (English)"
+    },
+    "Result": {
+        "title": "Results: "
     }
 }

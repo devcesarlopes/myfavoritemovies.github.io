@@ -5,7 +5,7 @@ export const Container = styled.div<{ theme: string }>`
         height: 15vh;
     }
     width: 100%;
-    height: 20vh;
+    height: 120px;
     padding: 2.5vh 0px;
     display: flex;
     flex-direction: row;

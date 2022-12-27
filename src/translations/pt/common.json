@@ -12,6 +12,9 @@
     "Home": {
         "title": "Pesquisar Filmes",
         "button": "Pesquisar",
-        "input": "Pesquisar (Nome dos Filmes devem ser em Inglês)"
+        "input": "Pesquisar (Inglês)"
+    },
+    "Result": {
+        "title": "Resultados: "
     }
 }
