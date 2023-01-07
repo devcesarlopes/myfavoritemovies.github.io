@@ -3,7 +3,9 @@ import styled from "styled-components";
 export const Container = styled.div<{ theme: string }>`
     @media screen and (max-width: 980px) {
         height: 15vh;
+        flex: 0 1 15vh !important;
     }
+    flex: 0 1 120px;
     width: 100%;
     height: 120px;
     padding: 2.5vh 0px;

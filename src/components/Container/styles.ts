@@ -17,14 +17,17 @@ export const Background = styled.div`
 `;
 
 export const DivMarginTop = styled.div`
-    margin-top: 10vh;
+    padding-top: 10vh;
+    flex: 1 1 auto;
+    position: relative;
 `;
 
 export const ContentContainer = styled.div`
     @media screen and (max-width: 980px) {
-        min-height: 70vh;
+        /* min-height: 80vh; */
     }
 
     position: relative;
-    min-height: calc(85vh - 120px);
+    /* min-height: calc(85vh - 120px); */
+    /* min-height: -webkit-fill-available; */
 `;

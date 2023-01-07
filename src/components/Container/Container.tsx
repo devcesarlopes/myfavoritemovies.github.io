@@ -9,11 +9,19 @@ interface states {
 
 export const Container = ({ children }: states) => {
     return (
-        <div style={{ position: "relative" }}>
+        <div
+            style={{
+                position: "relative",
+                display: "flex",
+                flexDirection: "column",
+                height: "100vh",
+            }}
+        >
             <Background />
             <Navbar />
             <DivMarginTop>
-                <ContentContainer>{children}</ContentContainer>
+                {children}
+                {/* <ContentContainer>{children}</ContentContainer> */}
             </DivMarginTop>
             <Footer />
         </div>
